@@ -1,0 +1,31 @@
+.table {
+    font-size: 20px;
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.thead {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #2a2a2a;
+}
+
+.td {
+    padding: 10px;
+    border: 2px solid #1d1d1d;
+    color: #2a2a2a;
+}
+
+.th {
+    padding: 10px;
+    border: 2px solid #1d1d1d;
+    color: #ffffff;
+}
+
+.tr {
+    &:nth-of-type(even) {
+        background-color: #d3d3d3;
+    }
+}
